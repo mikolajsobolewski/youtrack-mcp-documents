@@ -1,0 +1,14 @@
+{
+  "name": "youtrack-mcp-documents",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only document and issue-history tools for the official YouTrack MCP server",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "test:mutations": "node scripts/mutate.cjs",
+    "build": "python3 scripts/build.py",
+    "check": "npm test && npm run test:mutations && npm run build"
+  }
+}

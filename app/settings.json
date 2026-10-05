@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "title": "Document export access",
+  "properties": {
+    "youtrackUrl": {"type": "string", "title": "YouTrack HTTPS base URL", "x-scope": "GLOBAL"},
+    "exporterLogin": {"type": "string", "title": "Allowed MCP caller and REST token owner", "x-scope": "GLOBAL"},
+    "restToken": {"type": "string", "format": "secret", "title": "REST token of the allowed caller", "x-scope": "GLOBAL"},
+    "projectKeys": {"type": "string", "title": "Allowed project keys, comma separated", "x-scope": "GLOBAL"}
+  },
+  "required": ["youtrackUrl", "exporterLogin", "restToken", "projectKeys"]
+}

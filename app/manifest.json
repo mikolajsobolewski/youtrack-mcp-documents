@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "name": "youtrack-mcp-documents",
+  "title": "YouTrack MCP Documents",
+  "description": "Read-only documents, comments and issue history for MCP clients and local retrieval.",
+  "version": "0.1.0",
+  "minYouTrackVersion": "2025.3.0",
+  "url": "https://github.com/mikolajsobolewski/youtrack-mcp-documents",
+  "vendor": {"name": "Mikolaj Sobolewski", "url": "https://github.com/mikolajsobolewski"},
+  "aiToolPrefix": "rag"
+}
